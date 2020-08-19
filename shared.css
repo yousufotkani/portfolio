@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0rem;
+  border: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+.main-header {
+  position: absolute;
+  background-color: transparent;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_portfolio {
+    text-decoration: none;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+.header-list {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-list--items {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0.7rem;
+}
